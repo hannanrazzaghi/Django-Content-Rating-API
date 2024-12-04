@@ -11,7 +11,6 @@ A high-performance Django application built with **Django REST Framework (DRF)**
   - **Title**
   - **Number of ratings**
   - **Average score**
-  - **User's score** (if the user has rated the content)
 - Optimized for performance using precomputed aggregates and efficient database queries.
 - **Pagination** is used to handle large datasets in a scalable way, ensuring that responses remain fast even with thousands of content items.
 - **Caching**: The list of content is cached for 5 minutes to minimize database hits. If the cache is expired or unavailable, the content list is fetched from the database and cached again for faster subsequent responses.
