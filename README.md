@@ -31,7 +31,6 @@ The `ContentView` API provides a list of all content, optimized for performance 
   - **Title** of content
   - **Number of ratings**
   - **Average score**
-  - **User's score** (if the user has rated)
   
 - **Optimizations**:
   - **Pagination**: The API supports paginated responses to handle large datasets efficiently. The `page_size` is set to 100.
